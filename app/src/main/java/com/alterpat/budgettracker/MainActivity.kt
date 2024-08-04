@@ -68,6 +68,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AddTransactionActivity::class.java)
             startActivity(intent)
         }
+
+        binding.refreshBtn.setOnClickListener {
+            // Start the refresh service
+            val intent = Intent(this, RefreshDatabaseService::class.java)
+            startService(intent)
+            Snackbar.make(binding.root, "Data Refreshed!", Snackbar.LENGTH_SHORT).show()
+        }
     }
 
     private fun fetchAll(){
