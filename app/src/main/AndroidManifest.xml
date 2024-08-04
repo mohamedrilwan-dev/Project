@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetailedActivity"></activity>
+
+        <service android:name=".RefreshDatabaseService"
+            android:exported="false"/>
+
+        <activity android:name=".DetailedActivity" />
         <activity android:name=".AddTransactionActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

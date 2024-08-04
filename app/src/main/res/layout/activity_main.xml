@@ -7,12 +7,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-        <!-- Total Balance Section -->
         <LinearLayout
             android:id="@+id/balance_layout"
             android:layout_width="0dp"
@@ -36,15 +36,30 @@
                 android:textSize="18sp"
                 android:textColor="@color/gray_text" />
 
-            <TextView
-                android:id="@+id/balance"
-                android:layout_width="wrap_content"
+            <RelativeLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="$0.00"
-                android:textSize="36sp"
-                android:textStyle="bold"
-                android:textColor="@color/primaryColor"
-                android:layout_marginTop="8dp" />
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$0.00"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryColor" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/refreshBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/primaryColor"
+                    android:text="Refresh"
+                    android:textColor="@color/white"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true" />
+            </RelativeLayout>
         </LinearLayout>
 
         <!-- Dashboard Card Section -->
