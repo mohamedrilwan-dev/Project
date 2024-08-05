@@ -1,10 +1,11 @@
-# budget-tracker
+# Budget-tracker Mobile Application
 This application developed in Kotlin using Android Studio to assist in managing financial expenses. 
 This readme will provide an overview of the project, usage instructions, and information about its key features.
 
 # Overview
 The app aims to provide an intuitive and user-friendly interface for monitoring expenses, recording income, and tracking the financial balance.
- 
+![image](https://github.com/user-attachments/assets/a244b65b-5a4a-4ffa-b236-24f77c9696f3)
+
  
 Key Features With Screenshot
 
