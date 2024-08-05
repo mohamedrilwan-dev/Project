@@ -6,6 +6,7 @@ This readme will provide an overview of the project, usage instructions, and inf
 The app aims to provide an intuitive and user-friendly interface for monitoring expenses, recording income, and tracking the financial balance.
 
 Main Screen
+
 ![image](https://github.com/user-attachments/assets/a244b65b-5a4a-4ffa-b236-24f77c9696f3)
 
  
@@ -36,7 +37,7 @@ Key Features With Screenshot
 7.	Delete/Undo
         User can able to delete the and restore the deleted transactions.
 
-        ![image](https://github.com/user-attachments/assets/aff456db-d394-4e2f-a1a4-75d9a009b73e)
+    ![image](https://github.com/user-attachments/assets/aff456db-d394-4e2f-a1a4-75d9a009b73e)
 
 
 9.	Modify transaction details
@@ -44,6 +45,7 @@ Key Features With Screenshot
   	
   	![image](https://github.com/user-attachments/assets/32d26c32-ba4e-483f-98fe-c8e9e04cd001)
 
+   ![image](https://github.com/user-attachments/assets/acbd9a32-93c2-4808-879a-50090139241d)
 
 
  Used resources:
