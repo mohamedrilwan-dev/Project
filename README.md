@@ -25,10 +25,10 @@ Key Features With Screenshot
 
 
  Used resources:
-•	Color files (color) for a pleasant visual experience.
-•	String files for centralized text management and easy translation.
-•	Files in the drawable directory for images and icons used in the interface.
-•	Layout pages (layout) to organize and structure the different screens of the app.
-•	SQLite (database) using room for robust and efficient way to manage the application's data.
+ - Color files (color) for a pleasant visual experience.
+ - String files for centralized text management and easy translation.
+ - Files in the drawable directory for images and icons used in the interface.
+ - Layout pages (layout) to organize and structure the different screens of the app.
+ - SQLite (database) using room for robust and efficient way to manage the application's data.
 
 	
