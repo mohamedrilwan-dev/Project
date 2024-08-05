@@ -44,8 +44,8 @@ Key Features With Screenshot
         User can update already added transaction details.
   	
   	![image](https://github.com/user-attachments/assets/32d26c32-ba4e-483f-98fe-c8e9e04cd001)
+        ![image](https://github.com/user-attachments/assets/a891d45e-4e5a-4e98-8f77-c963592c69a2)
 
-   ![image](https://github.com/user-attachments/assets/acbd9a32-93c2-4808-879a-50090139241d)
 
 
  Used resources:
